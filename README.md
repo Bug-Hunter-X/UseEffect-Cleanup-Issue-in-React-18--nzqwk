@@ -1,0 +1,3 @@
+# React useEffect Cleanup Issue
+
+This repository demonstrates a common issue with the `useEffect` hook's cleanup function in React 18 and later.  The problem arises when the cleanup function (in this case, `clearInterval`) doesn't reliably run due to component unmounting or unexpected behavior within the effect's execution.  The provided solution showcases how to address the issue and ensure that the cleanup function executes correctly.
